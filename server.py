@@ -6,7 +6,7 @@ import numpy as np
 import struct ## new
 import zlib
 
-HOST=''
+HOST='ec2-3-134-243-153.us-east-2.compute.amazonaws.com'
 PORT=8485
 
 s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
